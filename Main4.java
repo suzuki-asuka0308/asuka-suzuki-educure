@@ -1,13 +1,6 @@
 public class Main4 {
     public static void main(String[] args) {
+        System.out.println("彼は\"Java programming\"が好きです。\n次の行です。\n\tタブを使用しています。");
         
-    
-    double maxHp = 1000.0;
-     maxHp *= 0.837;
-
-    int currentHP =(int)maxHp;
-    System.out.println("現在のHP:" + currentHP);
     }
-
 }
-

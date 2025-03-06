@@ -1,18 +1,11 @@
-import java.util.Scanner;
-
 public class Main6 {
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
-            System.out.println("現在の経験値を入力してください");
-            int currentExperience = scanner.nextInt();
-            
-            double bonusExperience = currentExperience * 0.25;
-            double increasedExperience = currentExperience + bonusExperience;
-            
-            System.out.println("ボーナス後の経験値:" + (int)increasedExperience);
-        }
+        int money = 1000;
+        System.out.println("更新前の価格:" + money + "円");
+        money = 1200;
+        System.out.println("更新前の価格:" + money + "円");
 
-         }
 
-      }
-        
+       
+    }
+}

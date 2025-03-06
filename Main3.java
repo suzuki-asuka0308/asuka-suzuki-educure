@@ -1,10 +1,16 @@
+/**
+ *Hello Worldを表示するクラス
+ */
 public class Main3 {
-    public static void main(String[] args) {
-        int attackpower = 15;
-        int defensepower = 5;
-       // int damege = (attackpower *2 - defensepower)/3;
-
-        System.out.println("与えられるダメージ:" + (attackpower *2 - defensepower)/3);
+        /**
+         * プログラムの実行開始始点
+         * @param args　コマンドライン引数
+         */
+        public static void main(String[] args) {
+            //"Hello, World!をコンソールに表示"
+            System.out.println("Hello, World!");
+            
+        }
     }
     
-}
+

@@ -1,12 +1,19 @@
 public class Main2 {
     public static void main(String[] args) {
-        int price = 2500;
+        String weather = "晴れ";
+        float temperature = 23.5f;
 
-        int discount = (int)(price* 0.2);
-        System.out.println("割引額:" + discount + "円" );
-        int salePrice = price - discount;
-        System.out.println("販売価格:" + salePrice + "円");
- 
-    }
-    
+        System.out.println("今日の天気:" + weather);
+        System.out.println("気温:" + temperature);
+
+        
+      }
+
+
+
 }
+
+
+// 天気（晴れ）と気温（23.5度）を表示
+//変数は使用しなくていい
+//

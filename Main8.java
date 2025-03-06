@@ -1,26 +1,11 @@
-
-import java.util.Scanner;
-
 public class Main8 {
     public static void main(String[] args) {
-     
-        try (   Scanner scanner = new Scanner(System.in)) {
-        
-            System.out.println("攻撃力を入力してください:");
-            int attackpower = scanner.nextInt();  
-        
-            System.out.println("防御力を入力してください：");
-            int defensepower = scanner.nextInt();  
-       
-            int normalDamage = attackpower - defensepower;
-           
-            double criticalDamage = normalDamage * 1.5;
-           
-            int criticalDamageInt = (int) criticalDamage;
-       
-            System.out.println("通常ダメージ: " + normalDamage);
-            System.out.println("クリティカルダメージ: " + criticalDamageInt);
-         
-        }
+    String name = "山田太郎";
+    String hometown = "東京都";
+    String favoriteFood = "カレーライス";
+
+     System.out.println("===== 自己紹介 =====\n名前:" + name+"\n出身地:" + hometown+"\n好きな食べ物:" + favoriteFood);
     }
+
 }
+
