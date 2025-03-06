@@ -1,16 +1,14 @@
 public class Main1 {
     public static void main(String[] args) {
-        int testScore = 100;
+        int lunchBox = 480;
+        int tea = 160;
+        int onigiri = 130;
+        int money = lunchBox + tea + onigiri;
 
-        
-        byte studentNumber;
+       System.out.println("合計金額は" + money + "円です。" );
 
-        boolean isAlive = true;
-        boolean isOpen = false;
-
-        String name;
 
 
     }
+    
 }
-
